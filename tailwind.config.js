@@ -24,7 +24,7 @@ module.exports = {
 			},
 			backgroundImage: {
 				"gradient-radial":
-					"radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))",
+					"bg-gradient-to-r from-blue-800 to-indigo-900",
 			},
 			animation: {
 				"fade-in": "fade-in 3s ease-in-out forwards",
