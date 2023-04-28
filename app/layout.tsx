@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "BCWSudharsanan.in",
+		template: "%s | BCWSudharsanan.in",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Senior Blockchain Developer at guardianlink.io and founder of BCWSudharsanan",
 	openGraph: {
-		title: "chronark.com",
+		title: "BCWSudharsanan.in",
 		description:
 			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+		url: "https://BCWSudharsanan.in",
+		siteName: "BCWSudharsanan.in",
 		images: [
 			{
 				url: "https://chronark.com/og.png",
@@ -63,7 +63,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<body
-				className={`bg-black ${
+				className={`bg-gradient-to-b from-blue-500 to-violet-900 ${
 					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
 				}`}
 			>

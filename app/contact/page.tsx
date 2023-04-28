@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter,Youtube,Linkedin,Phone } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -7,28 +7,46 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
+		href: "https://twitter.com/BCWSudharsanan",
 		label: "Twitter",
-		handle: "@chronark_",
+		handle: "@BCWSudharsanan",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:BCWSudharsanan@gmail.com",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "BCWSudharsanan@gmail.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/bcwsudharsanan",
 		label: "Github",
-		handle: "chronark",
+		handle: "bcwsudharsanan",
+	},
+	{
+		icon: <Youtube size={20} />,
+		href: "https://www.youtube.com/@BCWSudharsanan",
+		label: "Youtube",
+		handle: "BCWSudharsanan",
+	},
+	{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/sudharsanan-k-029/",
+		label: "LinkedIn",
+		handle: "Sudharsanan Kirubanandhan",
+	},
+	{
+		icon: <Phone size={20} />,
+		href: "https://wa.me/+917806873024",
+		label: "Whatsapp",
+		handle: "BCWSudharsanan",
 	},
 ];
 
-export default function Example() {
+export default function Contact() {
 	return (
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
-			<Navigation />
+			<Navigation></Navigation>
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
 					{socials.map((s) => (
